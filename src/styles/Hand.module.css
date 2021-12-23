@@ -1,5 +1,7 @@
 .hand {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  width: 70%;
+  grid-gap: 10px;
 }

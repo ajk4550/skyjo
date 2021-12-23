@@ -1,13 +1,13 @@
 .card {
-  width: 15em;
-  height: 20em;
+  height: 200px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 0.5em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  margin: 1em 0;
+  overflow: hidden;
 }
 
 .unflippedCard {
@@ -15,17 +15,19 @@
 }
 
 .value {
-  font-size: 8em;
+  font-size: calc(64px + 2vw);
   margin: 0 auto;
   background-color: #fff;
   border-radius: 50%;
-  height: 9rem;
-  width: 9rem;
+  height: 6rem;
+  width: 6rem;
   text-align: center;
+  align-self: center;
 }
 
 .cardLogo {
-  font-size: 4em;
+  font-size: calc(32px + 2vw);
   transform: rotate(-30deg);
   color: #fff;
+  padding: 20px;
 }
