@@ -1,5 +1,5 @@
-import Hand from "../components/Hand";
+import Game from "../components/Game";
 
 export default function Home() {
-  return <Hand />;
+  return <Game />;
 }
